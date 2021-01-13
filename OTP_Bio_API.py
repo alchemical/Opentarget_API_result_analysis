@@ -1,4 +1,4 @@
-# This script use the opentargets RESTAPI to get Target and disease assocation information.
+# This script use the opentargets RESTAPI to get Target and disease association information.
 #
 
 # ---- Importing required library------------- 
@@ -18,7 +18,7 @@ def stat_ana(self):
     print("\tAVERAGE association_score.overall is : ", self['Association_score_Overall'].mean())
     print("\tSTANDARD DEVIATION association_score.overall is : ", self['Association_score_Overall'].std(), "\n\n")
 
-# function to get the target id as name and number of associated record in database to compute target id, disease id and assocuation score overall.
+# function to get the target id as name and number of associated record in database to compute target id, disease id and association score overall.
 # can be possible to add various fields based on the needs.
 def asso_target(name, no_record):
     fields = ['target.id', 'disease.id','association_score.overall']
@@ -27,7 +27,7 @@ def asso_target(name, no_record):
     for result in response.json()['data']:
         yield (result['target']['id'], result['disease']['id'], result['association_score']['overall'])
 
-# function to get the disease id as name and number of associated record in database to compute target id, disease id and assocuation score overall.
+# function to get the disease id as name and number of associated record in database to compute target id, disease id and association score overall.
 # can be possible to add various fields based on the needs.
 def asso_disease(name, no_record):
     fields = ['target.id', 'disease.id','association_score.overall']
