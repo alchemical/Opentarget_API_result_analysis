@@ -1,4 +1,4 @@
-# This script use the opentargets API to get Target and disease assocation information.
+# This script use the opentargets API to get Target and disease association information.
 
 # ---- Importing required library------------- 
 # argparse: makes it easy to write user friendly command line interface. More info (https://docs.python.org/3/library/argparse.html)
