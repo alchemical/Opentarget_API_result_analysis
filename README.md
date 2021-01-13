@@ -8,9 +8,11 @@ There are two scripts, one which directly uses the RESTAPI (**OTP_Bio_API.py**) 
 Both the script should give the same result/output and both the script should be run in the same way.
 
 python3 OTP_Bio_API.py -t/--target target_id
+
 python3 OTP_Bio_API.py -d/--disease disease_id
 ### or
 python3 OTP_Bio_pythonAPI.py -t/--target target_id
+
 python3 OTP_Bio_pythonAPI.py -d/--disease disease_id
 
 Results/output will be provided directly on the terminal window. If you would like to save the result you can use '>' operator and desired filename.
