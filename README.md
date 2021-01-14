@@ -1,6 +1,6 @@
 # Opentarget_API_result_analysis
 
-### To run this script you need to have **python3** installed in your computer. The code was written and tested on the linux machine.
+### To run this script you need to have **python** installed in your computer. The code was written and tested on the linux machine with python3.
 #### To use the script first you need install all the dependencies listed in requirements.txt 
 pip install -r requirements.txt 
 #### After installing just run the script
