@@ -1,4 +1,8 @@
-# This script use the opentargets API to get Target and disease association information.
+# This script use the opentargets RESTAPI to get Target and disease association information.
+# Information regarding api and how to use are obtained from:
+# https://docs.targetvalidation.org/programmatic-access/rest-api
+# https://opentargets.readthedocs.io/en/stable/tutorial.html
+# https://docs.targetvalidation.org/programmatic-access/api-tutorials/find-the-id-of-a-target-or-disease
 
 # ---- Importing required library------------- 
 # argparse: makes it easy to write user friendly command line interface. More info (https://docs.python.org/3/library/argparse.html)
